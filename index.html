@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Todo</title>
+</head>
+<body>
+
+
+    <div class="wrapper">
+      <div class="form-container">
+       <div class="header-title">
+        <h2 class="title">Create your Todo List</h2>
+      </div>
+
+      <div class="input-container">
+
+        <form >
+
+            <div class="title-container">
+          <label for="title-input">Title</label>
+           <input type="text" id="title-input">
+          </div>
+        <div class="date-container">
+           <label for="date-input">Date</label>
+           <input type="date" id="date-input">
+          </div>
+        <div class="desciption-container">
+           <label for="desc-input">Description</label>
+           <textarea name="" id="desc-input" cols="50" rows="10"  placeholder="describe your task here ..."></textarea>
+          </div>
+     <button class="add-new-task-btn">Add  New Task</button>
+        </form>
+      </div>
+    </div>
+<!-- <button id="reset">reset</button> -->
+<div class="task-container">
+  <div class="tasks-wrapper">
+    <h2 class="tasks-title">Tasks</h2>
+    <div class="tasks-list--container">
+    </div>
+  </div>
+
+
+
+</div>
+    </div>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
